@@ -40,7 +40,15 @@ def main():
 
     for filename in os.listdir(ads_directory):
         old_file = os.path.join(ads_directory, filename)
+
+        if filename.startswith("backup_"):
+            continue
+
         new_file = os.path.join(ads_directory, f"backup_{filename}")
+
+        if os.path.exists(new_file):
+            os.remove(new_file)
+
         os.rename(old_file, new_file)
 
     move_downloaded_file = os.path.join(ads_directory, 'languagedata_pt.loc')
