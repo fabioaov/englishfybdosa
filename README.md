@@ -2,8 +2,6 @@
 
 Simples script para alterar o idioma do client do Black Desert SA para inglês.
 
-Por enquanto altera somente de português para inglês.
-
 Credits to [Shad0wtrance](https://www.reddit.com/r/blackdesertonline/comments/p8vjss/guide_all_your_bdo_language_file_needs/).
 
 ## Como usar
